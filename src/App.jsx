@@ -7,14 +7,14 @@ import Contact from './components/Contact';
 export default function App() {
   return (
     <div className="min-h-screen bg-neutral-950 text-white selection:bg-cyan-300/30 selection:text-cyan-100">
-      {/* Simple anchor nav for quick jumps */}
+      {/* Простая навигация-якоря */}
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/70 bg-neutral-950/60 border-b border-white/10">
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
-          <a href="#home" className="font-semibold tracking-tight">My Portfolio</a>
+          <a href="#home" className="font-semibold tracking-tight">Моё портфолио</a>
           <div className="flex items-center gap-6 text-sm">
-            <a href="#about" className="hover:text-cyan-300 transition">About</a>
-            <a href="#work" className="hover:text-cyan-300 transition">Work</a>
-            <a href="#contact" className="hover:text-cyan-300 transition">Contact</a>
+            <a href="#about" className="hover:text-cyan-300 transition">Обо мне</a>
+            <a href="#work" className="hover:text-cyan-300 transition">Проекты</a>
+            <a href="#contact" className="hover:text-cyan-300 transition">Контакты</a>
           </div>
         </nav>
       </header>
@@ -28,7 +28,7 @@ export default function App() {
 
       <footer className="mt-20 border-t border-white/10 py-10 text-center text-sm text-neutral-400">
         <p>
-          © {new Date().getFullYear()} • Built with React, Tailwind CSS, and a love for clean, accessible UIs.
+          © {new Date().getFullYear()} • Сделано на React и Tailwind с любовью к чистым и доступным интерфейсам.
         </p>
       </footer>
     </div>
